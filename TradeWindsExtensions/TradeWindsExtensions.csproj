@@ -5,6 +5,29 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<Version>1.0.0.1</Version>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Basic extensions for common classes</Title>
+		<Authors>DavidThielen</Authors>
+		<Company>Trade Winds Studios</Company>
+		<Description>A collection of extensions for several common classes, mostly String extensions.</Description>
+		<Copyright>MIT</Copyright>
+		<PackageProjectUrl>https://github.com/DavidThielen/TradeWindsExtensions</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/DavidThielen/TradeWindsExtensions</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Random;String; TimeSpan; TimeZoneInfo</PackageTags>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\LICENSE.txt">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 </Project>
